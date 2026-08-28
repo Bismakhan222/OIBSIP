@@ -85,3 +85,56 @@ This project was developed as part of the Oasis Infobyte Internship Program.
 ## Author
 
 Bisma panhwer
+
+
+
+## Task 2 — Number Guessing Game
+
+**### Project Overview**
+
+The Number Guessing Game is a Java console-based game developed as part of the Oasis Infobyte Internship.
+
+The computer generates a random number between 1 and 100, and the player attempts to guess the number within a maximum number of attempts. After each guess, the game provides a hint indicating whether the guess is too high or too low.
+
+### Features
+
+* Random number generation from 1 to 100
+* User input using Scanner
+* Too High / Too Low hints
+* Correct answer notification
+* Attempt counter
+* Maximum 10 attempts per round
+* Input validation
+* Hint for even or odd number
+* Play Again option
+* Multiple round support
+* Game statistics
+* Average attempts tracking
+
+### Technologies Used
+
+* Java
+* Random
+* Scanner
+* while loops
+* if-else statements
+* Exception handling
+
+### How to Run
+
+1. Open the project in IntelliJ IDEA.
+2. Open `src/NumberGuessingGame.java`.
+3. Run the `main()` method.
+4. Enter a number between 1 and 100.
+5. Follow the hints until you guess the correct number.
+6. Choose `yes` or `no` when asked to play again.
+
+### File
+
+```text
+src/
+└── NumberGuessingGame.java
+```
+
+---
+
